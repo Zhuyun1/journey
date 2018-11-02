@@ -80,3 +80,16 @@ h2 {
 body p a:link { color: #007e7e; }
 body p a:visited { color: #333333; }
 
+.guarantee {
+  line-height:         1.9em;
+  font-style:          italic;
+  font-family:         Georgia, "Times New Roman", Times, serif;
+  color:               #444444;
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+  padding:             25px;
+  margin:              30px;
+  background-image: url(images/background.gif);
+}
