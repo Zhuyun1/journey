@@ -91,3 +91,42 @@ div#tableRow {
   padding:           15px;
   vertical-align:    top;
 }
+
+#award {
+  position:           absolute;
+  top:                30px;
+  left:               365px;
+}
+ 
+
+
+#coupon {
+  position: fixed;
+  top: 30px;
+  
+  -webkit-animation: myfirst 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 0s
+}
+#coupon a, img {
+  border: none;
+
+}
+@keyframes myfirst
+{
+0%   { left: -90px; }
+25%  {left: 0px; }
+50%  {left: 100px; }
+75%  { left: 0px; }
+100% {left: -90px; }
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   { left: -90px; }
+25%  { left: 0px; }
+50%  { left: 100px; }
+75%  { left: 0px; }
+100% { left: -90px; }
+}
+
