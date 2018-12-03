@@ -16,7 +16,10 @@
     color: #b0b0b0;
     text-decoration: none;
   }
-  
+  a{
+    text-decoration: none;
+    color: #333
+  }
   .sep {
     color: #424242;
   }
@@ -34,7 +37,10 @@
     line-height: 40px;
     width: 120px;
     margin-left: 15px;
-    background-color:  
+    background: #424242;
+   
+
+    
   }
   
   .topbar-info {
@@ -43,15 +49,23 @@
     height: 40px;
     line-height: 40px;
   }
-
-  .site-header .logo {
-    position: relative;
-    display: block;
-    width: 55px;
-    height: 55px;
-    overflow: hidden;
-    _zoom: 1;
-    background-color: #ff6700;
-    *background: url(/i/logo.png) no-repeat 50% 50%;
-  
-}
+  .site-header .header-logo {
+    margin-left: 178px;
+    width: 62px;
+    margin-top: 22px;
+    float: left;
+    margin-right: 165px;
+    
+  }
+  .site-header .header-1-nav .header-nav {
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 35px;
+    float: left;
+   
+    
+  }
+  .header-1-nav{
+    margin-right: auto;
+    margin-left: auto;
+  }
