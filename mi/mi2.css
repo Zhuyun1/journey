@@ -120,6 +120,8 @@ form{
   
 }
 .main-nav {
+  position: absolute;
+  display: inline-block;
   margin: 0;
   padding: 20px 0;
   list-style-type: none;
@@ -142,4 +144,79 @@ form{
 
 .main-nav a{
   color:#fff;
+}
+.datu{
+  float: left;
+  
+  width: 1226px;
+  height:460px;
+}
+.xiaotupiao{
+  display: table;
+  margin-left:-14px;
+  margin-top:14px;
+}
+.xiaotubiao2{
+  width: 234px;
+  float: left;
+  margin-left:14px;
+  min-height: 1px; 
+}
+.xiaotubiao-list{
+  margin: 0;
+    padding: 3px;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+    background: #5f5750;
+    list-style-type: none;
+    font-size: 12px;
+    display: table;
+}
+.x6{
+  
+  position: relative;
+  float: left;
+  width: 70px;
+  height: 82px;
+  padding: 0 3px;
+  
+}
+.t6{
+  
+  display: block;
+    padding-top: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgba(255,255,255,0.7);
+    transition: color .2s;
+}
+.t1{
+  margin: 0 auto;
+  display: block;
+    height: 24px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 24px;  
+}
+
+.xiaotubiao-list li:before{
+  top: -1px;
+    left: 6px;
+    width: 64px;
+    height: 1px;
+}
+
+.xiaotubiao-list li:before, .xiaotubiao-list li:after{
+  position: absolute;
+    content: "";
+    background: #665e57;
+}
+
+.xiaotubiao-list li:after{
+  top: 6px;
+    left: 0;
+    width: 1px;
+    height: 70px;
 }
