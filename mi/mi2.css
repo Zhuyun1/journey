@@ -1,5 +1,10 @@
 body{
-  margin:0px;
+ 
+ font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+color: #333;
+background-color: #fff;
+min-width: 1226px;
+
 }
 .site-topbar {
     position: relative;
@@ -304,7 +309,7 @@ margin-top:px;
 .review{
   height: 72px;
   margin: 0 28px 22px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 24px;
   font-weight: 400;
   overflow: hidden;
@@ -370,6 +375,9 @@ margin-top:px;
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
 }
+#comment{
+  margin-bottom: 22px;
+}
 .content-4{
   position: relative;
     float: left;
@@ -396,4 +404,65 @@ margin-top:px;
   font-weight: 400;
   text-align: center;
 
+}
+.content-xia{
+  height: 340px;
+  overflow: hidden;
+}
+.neirong{
+  width: 888px;
+  margin-left: 0px;
+  height: 340px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+  
+  color: #333;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+.neirong li{
+  float: left;
+  width: 296px;
+  height: 340px;
+
+}
+.name{
+  color: #333;
+  margin: 0 20px 5px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.name a{
+  color: #333;
+}
+.reping3{
+  width: 296px;
+  height: 220px;
+  margin: 0 0 28px;
+}
+.desc{
+  color: #b0b0b0;
+  margin: 0 48px 10px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  overflow: hidden
+}
+.desc a{
+  color: #b0b0b0;
+}
+.price{
+  color: #333;
+  height: 21px;
+  margin: 0 10px 15px;
+  text-align: center;
 }
