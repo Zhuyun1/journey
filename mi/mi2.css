@@ -104,6 +104,7 @@ form{
     height: 50px;
   }
   .main {
+    
     width: 1226px;
     margin-right: auto;
     margin-left: auto;
@@ -262,4 +263,137 @@ margin-top:px;
  
   width:120px;
   height: 40px;
+}
+.hd{
+  position: relative;
+  height: 58px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.xiaobiaoti{
+
+  margin: 0;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+}
+.reping{
+  width: 1240px;
+  height: 415px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.reping1{
+  margin-left: 0;
+  position: relative;
+ float: left;
+ width: 296px;
+ height: 415px;
+ margin-left: 0px;
+ margin-bottom: 14px;
+  background: #fff;
+ -webkit-transition: all .2s linear;
+ transition: all .2s linear;
+}
+.repingtu{
+  width: 296px;
+  height: 220px
+}
+.review{
+  height: 72px;
+  margin: 0 28px 22px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  overflow: hidden;
+ 
+}
+.author{
+  position: relative;
+  height: 18px;
+  margin: 0 28px 8px;
+  padding: 0 10px 0 0;
+  font-size: 12px;
+  color: #b0b0b0;
+
+}
+.info{
+  width: 236px;
+  height:22px;
+  margin: 0 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+.dianfanbao{
+  display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 170px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: bottom;
+    color: #333;
+
+}
+.sep{
+  color: #e0e0e0;
+}
+.price{
+  display: inline;
+  margin: 0;
+  color: #ff6700;
+}
+.home-main{
+  padding-top: 22px;
+  background: #f5f5f5;
+}
+.container{
+  width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.reping2{
+  position: relative;
+    float: left;
+    width: 296px;
+    height: 415px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.content-4{
+  position: relative;
+    float: left;
+    width: 296px;
+    height: 374px;
+    padding: 45px 0 0;
+    border-top: 1px solid #e0e0e0;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.content-4-first{
+  margin-left: 0
+}
+.content-4-1{
+  border-top-color: #ffac13;
+  color: #ffac13;
+}
+.content-biaoti{
+  margin: 0 10px 18px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+
 }
