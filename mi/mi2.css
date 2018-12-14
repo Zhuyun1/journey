@@ -460,6 +460,9 @@ margin-top:px;
 .desc a{
   color: #b0b0b0;
 }
+#content{
+  margin-bottom: 27px
+}
 #content .price{
   width: 276px;
   height: 21px;
@@ -596,9 +599,7 @@ margin-top:px;
 .site-topbar a:hover{
   color: #fff;
 }
-.site-header a:hover{
-  color: #ff6709 
-}
+
 .main-nav:hover{
   color: #ff6709 
 }
@@ -609,4 +610,115 @@ margin-top:px;
 .list:hover{
   background-color: #ff6709;
   color:#fff
+}
+.header-1-nav a:hover{
+  color: #ff6709
+}
+#video-28{
+  margin-bottom: 60px;
+}
+.all{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.all-28{
+  font-size: 16px;
+  line-height: 58px;
+  color: #424242;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+.all-28:hover{
+  color: #ff6709;
+  
+}
+.icon{
+  width: 12px;
+    height: 12px;
+    padding: 4px;
+    margin-left: 8px;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 12px;
+    background: #b0b0b0;
+    color: #fff;
+    vertical-align: 1px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+}
+.all-28:hover .icon{
+  background-color: #ff6709
+}
+.video-list-28{
+  width: 1240px;
+  height: 285px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.video-28-item{
+  position: relative;
+  float: left;
+  width: 296px;
+  height: 285px;
+  margin-left: 14px;
+  margin-bottom: 14px;
+  text-align: center;
+  background: #fff;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.video-1{
+  margin-left: 0;
+}
+.figure-img-28{
+  position: relative;
+  width: 296px;
+  height: 180px;
+  margin: 0 0 28px;
+}
+.figure-img-28 a{
+  display: block;
+    height: 180px;
+}
+.figure-img-28 img{
+  width: 296px;
+  height: 180px;
+
+}
+.play{
+  position: absolute;
+    left: 20px;
+    bottom: 10px;
+    width: 32px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background-color: #424242;
+    background-color: rgba(0,0,0,0.6);
+    
+    color: #fff;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    overflow: hidden;
+    
+}
+.play .icon{
+background-color: rgba(0,0,0,0.6);
+}
+
+.figure-img-28:hover .play{
+  background-color: #ff6709
+}
+.figure-img-28:hover .icon{
+  background-color: #ff6709
+}
+.video-28-item:hover{
+  transform: translate(0,-4px);
 }
