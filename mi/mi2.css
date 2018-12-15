@@ -752,3 +752,35 @@ background-color: rgba(0,0,0,0.6);
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+.container-28-weixiu{
+  
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+
+}
+.home-main{
+  height: 1398px
+}
+.weixiu-list{
+  height:25;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.weixiu-list a:hover{
+  color: #ff6700
+}
+.weixiu-list li{
+  float: left;
+  width: 19.8%;
+  height: 25px;
+  border-left: 1px solid #e0e0e0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+.weixiu-list li:first-child{
+  
+    border-left: 0;
+
+}
