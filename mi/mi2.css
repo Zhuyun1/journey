@@ -762,6 +762,8 @@ background-color: rgba(0,0,0,0.6);
   height: 1398px
 }
 .weixiu-list{
+  display: inline-block;
+  width: 1226px;
   height:25;
   margin: 0;
   padding: 0;
@@ -772,7 +774,7 @@ background-color: rgba(0,0,0,0.6);
 }
 .weixiu-list li{
   float: left;
-  width: 19.8%;
+  width: 242.73px;
   height: 25px;
   border-left: 1px solid #e0e0e0;
   font-size: 16px;
@@ -783,4 +785,12 @@ background-color: rgba(0,0,0,0.6);
   
     border-left: 0;
 
+}
+.weixiu-list img{
+  width: 24px;
+  height: 24px;
+  margin-right: 1px
+}
+.weixiu-list .a:hover img{
+  color: #ff6709
 }
