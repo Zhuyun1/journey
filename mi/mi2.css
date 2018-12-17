@@ -739,11 +739,11 @@ background-color: rgba(0,0,0,0.6);
 .list i{
   color: rgba(255,255,255,0.5);
   position: absolute;
-    top: 12px;
-    right: 20px;
-    font-size: 16px;
-    line-height: 16px;
-    color: #e0e0e0;
+  top: 12px;
+  right: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #e0e0e0;
 }
 .icon-28{
   font-family: "iconfont" !important;
@@ -793,4 +793,33 @@ background-color: rgba(0,0,0,0.6);
 }
 .weixiu-list .a:hover img{
   color: #ff6709
+}
+
+.wyt-28-info {
+  padding: 30px 0;
+  font-size: 12px;
+  background: #fafafa;
+}
+
+.text-wyt{
+  float: left;
+  color: #b0b0b0;
+}
+.wyt-28-info p{
+  margin: 0px;
+  line-height: 18px
+}
+.wyt-logo{
+  float: left;
+  margin-right: 10px
+}
+.wyt-28-sites a{
+  color: #757575;
+}
+.wyt-28-info a:hover{
+  color: #ff6709
+  
+}
+.wyt-bottom a{
+  color: #b0b0b0;
 }
